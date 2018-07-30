@@ -16,6 +16,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => 'https://github.com/ginppian/podBAVDomain.git', :tag => "#{spec.version}" }
 
+  spec.requires_arc = true
+  
+  spec.module_name = 'podBAVDomain'
+
   spec.source_files     = 'podBAVDomain/BAVDomain/*.{swift}'
 
 end

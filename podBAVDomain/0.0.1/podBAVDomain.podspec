@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   
-  s.module_name = 'podBAVDomain'
+  s.module_name  = 'podBAVDomain'
 
   s.exclude_files    = 'Classes/Exclude'
 
